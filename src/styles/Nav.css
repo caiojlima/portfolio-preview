@@ -1,0 +1,35 @@
+nav {
+  align-items: center;
+  border-bottom: 1px rgb(75, 75, 75) solid;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  width: 10%;
+}
+
+li {
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+li:hover {
+  background-color: rgb(117, 117, 117);
+}

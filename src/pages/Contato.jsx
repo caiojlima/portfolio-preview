@@ -1,7 +1,11 @@
 import React from 'react';
+import Nav from '../components/Nav';
 
 const Contato = () => (
-  <h1>Aqui é a página de contato</h1>
+  <div>
+    <Nav />
+    <h1>Aqui é a página de contato</h1>
+  </div>
 );
 
 export default Contato;

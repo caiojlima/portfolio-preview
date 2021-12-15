@@ -1,7 +1,11 @@
 import React from 'react';
+import Nav from '../components/Nav';
 
 const Projetos = () => (
-  <h1>Aqui é a página de Projetos</h1>
+  <div>
+    <Nav />
+    <h1>Aqui é a página de Projetos</h1>
+  </div>
 );
 
 export default Projetos;

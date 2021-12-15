@@ -1,6 +1,6 @@
 import React from 'react';
 import ferramentas from '../images/ferramentas.svg';
-import caio from '../images/perfil.svg';
+import caio from '../images/profile.jpeg'
 import Nav from '../components/Nav';
 import '../styles/Inicio.css';
 
@@ -10,7 +10,7 @@ const Inicio = () => (
     <section className="welcome-container">
       <div className="profile-image-container">
         <a href="https://www.linkedin.com/in/caio-limah/" target="_blank" rel="noreferrer">
-          <img className="profile-image" src={ caio } alt="Foto de Caio Lima" />
+          <img className="profile-image" src={caio} alt="Foto de Caio Lima" />
         </a>
       </div>
       <div className="greetins-container">

@@ -2,6 +2,7 @@ import React from 'react';
 import ferramentas from '../images/ferramentas.svg';
 import caio from '../images/profile.jpeg'
 import Nav from '../components/Nav';
+import Clock from '../components/Clock';
 import '../styles/Inicio.css';
 
 const Inicio = () => (
@@ -25,6 +26,7 @@ const Inicio = () => (
         <img src={ ferramentas } alt="Imagem com ferramentas" />
       </div>
     </section>
+    <Clock />
   </div>
 );
 

@@ -1,4 +1,87 @@
+nav {
+  align-items: center;
+  border-bottom: 1px rgb(75, 75, 75) solid;
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
 ul {
   display: flex;
   list-style: none;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  width: 10%;
+}
+
+li {
+  border-radius: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+li:hover {
+  background-color: rgb(117, 117, 117);
+}
+
+.welcome-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 4%;
+  width: 65%;
+}
+
+.profile-image {
+  animation: photo-animation 2s ease linear;
+  border: 2px solid rgb(70, 70, 70);
+  border-radius: 50%;
+  transition: ease 0.6s;
+  width: 200%;
+}
+
+.profile-image:hover {
+  border: 2px solid rgb(255, 255, 255);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.greetins-container {
+  width: 20%;
+}
+
+.greetings {
+  font-size: 24px;
+  text-align: center;
+}
+
+.intro-article-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+.intro-article{
+  font-size: 24px;
+  text-align: center;
+  width: 50%;
+}
+
+.tools-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  width: 100%;
 }

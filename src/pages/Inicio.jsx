@@ -1,8 +1,6 @@
 import React from 'react';
-import ferramentas from '../images/ferramentas.svg';
 import caio from '../images/profile.jpeg'
 import Nav from '../components/Nav';
-import Clock from '../components/Clock';
 import '../styles/Inicio.css';
 
 const Inicio = () => (
@@ -21,12 +19,6 @@ const Inicio = () => (
     <article className="intro-article-container">
     <p className="intro-article">Sou programador FullStack formado pela Trybe, gosto de aprender novas tecnologias e trocar conhecimento! Nesse portifólio você vai encontrar um pouco da minha história, meus projetos realizados e minhas informações de contato.</p>
     </article>
-    <section>
-      <div className="tools-container">
-        <img src={ ferramentas } alt="Imagem com ferramentas" />
-      </div>
-    </section>
-    <Clock />
   </div>
 );
 

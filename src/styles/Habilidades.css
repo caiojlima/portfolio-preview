@@ -1,0 +1,10 @@
+.abilities-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.abilities {
+  width: 60%;
+}

@@ -28,6 +28,9 @@ const Nav = () => {
         <Link to="/about">
           <li onClick={ handleClick } style={ (navState === 'Sobre' && pathname === '/about') ? SELECTED : NORMAL }>Sobre</li>
         </Link>
+        <Link to="/abilities">
+          <li onClick={ handleClick } style={ (navState === 'Habilidades' && pathname === '/abilities') ? SELECTED : NORMAL }>Habilidades</li>
+        </Link>
         <Link to="/projects">
           <li onClick={ handleClick } style={ (navState === 'Projetos' && pathname === '/projects') ? SELECTED : NORMAL }>Projetos</li>
         </Link>

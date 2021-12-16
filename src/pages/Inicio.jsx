@@ -10,7 +10,7 @@ const Inicio = () => (
         <h1>CAIO LIMA<span className="show-hide">.</span></h1>
       </div>
       <div className="dev-container">
-        <h2>Desenvolvedor Web Fullstack</h2>
+        <h2>Desenvolvedor Web Full Stack</h2>
       </div>
       <div className="paragraph-container">
         <p>Amante da tecnologia.</p>

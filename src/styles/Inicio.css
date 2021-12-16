@@ -3,11 +3,12 @@
   display: flex;
   justify-content: space-evenly;
   margin: auto;
-  margin-bottom: 4%;
+  margin-bottom: 8%;
   width: 55%;
 }
 
 .profile-image-container {
+  animation: fadeIn forwards 5s ease;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -22,7 +23,7 @@
 
 .profile-image {
   border-radius: 50%;
-  transition: ease 0.6s;
+  transition: ease-in-out 0.6s;
   width: 90%;
 }
 
@@ -35,6 +36,7 @@
 
 .greetins-container {
   width: 20%;
+  animation: fadeIn forwards 5s ease;
 }
 
 .greetings {
@@ -43,9 +45,9 @@
 }
 
 .intro-article-container {
+  animation: fadeIn2 forwards 3s ease-in;
   display: flex;
   justify-content: center;
-  margin-bottom: 8%;
   width: 100%;
 }
 
@@ -60,4 +62,22 @@
   justify-content: center;
   margin-bottom: 2%;
   width: 100%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn2 {
+  0%, 40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

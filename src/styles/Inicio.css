@@ -8,7 +8,6 @@
 }
 
 .profile-image-container {
-  animation: fadeIn forwards 5s ease;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -35,17 +34,17 @@
 }
 
 .greetins-container {
-  width: 20%;
-  animation: fadeIn forwards 5s ease;
+  width: 25%;
 }
 
 .greetings {
   font-size: 24px;
   text-align: center;
+  font-family: 'Prompt', sans-serif;
+
 }
 
 .intro-article-container {
-  animation: fadeIn2 forwards 3s ease-in;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -55,29 +54,5 @@
   font-size: 24px;
   text-align: center;
   width: 50%;
-}
-
-.tools-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2%;
-  width: 100%;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn2 {
-  0%, 40% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+  font-family: 'Prompt', sans-serif;
 }

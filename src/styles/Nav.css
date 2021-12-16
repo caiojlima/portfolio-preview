@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Prompt:wght@200&display=swap');
+
 nav {
   align-items: center;
   border-bottom: 1px rgb(75, 75, 75) solid;
@@ -6,6 +8,8 @@ nav {
   justify-content: center;
   margin-bottom: 2%;
   width: 100%;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
 }
 
 ul {

@@ -1,24 +1,26 @@
-import React from 'react';
-import caio from '../images/profile.jpeg'
+import React, { useEffect, useContext } from 'react';
+import NavContext from '../context/NavContext';
 import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 import '../styles/Inicio.css';
 
 const Inicio = () => (
   <div>
     <Nav />
-    <section className="welcome-container">
-      <div className="profile-image-container">
-        <a href="https://www.linkedin.com/in/caio-limah/" target="_blank" rel="noreferrer">
-          <img className="profile-image" src={caio} alt="Foto de Caio Lima" />
-        </a>
+    <section className="home-container">
+      <div className="name-container">
+        <h1>CAIO LIMA<span className="show-hide">.</span></h1>
       </div>
-      <div className="greetins-container">
-        <p className="greetings">Olá! Meu nome é Caio Lima e seja muito bem vindo(a) ao meu portifólio!</p>
+      <div className="dev-container">
+        <h2>Desenvolvedor Web Fullstack</h2>
+      </div>
+      <div className="paragraph-container">
+        <p>Amante da tecnologia.</p>
+        <p>Em busca de novos desafios.</p>
+        <p>Aprender a aprender.</p>
       </div>
     </section>
-    <article className="intro-article-container">
-    <p className="intro-article">Sou programador FullStack formado pela Trybe, gosto de aprender novas tecnologias e trocar conhecimento! Nesse portifólio você vai encontrar um pouco da minha história, meus projetos realizados e minhas informações de contato.</p>
-    </article>
+    <Footer />
   </div>
 );
 

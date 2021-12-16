@@ -1,0 +1,12 @@
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cards-container a {
+  width: 28%;
+  margin-bottom: 2.2%;
+}

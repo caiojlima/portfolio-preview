@@ -6,6 +6,9 @@ import '../styles/Habilidades.css'
 const Habilidades = () => (
   <div>
     <Nav />
+    <div className="title-container">
+      <h1>Habilidades</h1>
+    </div>
     <section className="abilities-container">
       <img className="abilities" src={ abilities } alt="Habilidades" />
     </section>

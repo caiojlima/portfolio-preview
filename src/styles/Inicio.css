@@ -34,7 +34,8 @@
 }
 
 .show-hide {
-  animation: show-hide 1s infinite;
+  animation-direction: alternate-reverse;
+  animation: show-hide 1.3s infinite;
 }
 
 @keyframes show-hide {

@@ -1,0 +1,41 @@
+.blink-1 {
+  animation-direction: alternate-reverse;
+  animation: blink1 1.5s infinite;
+}
+
+.blink-2 {
+  animation: blink2 1.5s infinite;
+  animation-direction: alternate-reverse;
+}
+
+.blink-3 {
+  animation: blink3 1.5s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes blink3 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink2 {
+  33% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink1 {
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

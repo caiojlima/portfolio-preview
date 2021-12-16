@@ -1,5 +1,3 @@
-import React, { useEffect, useContext } from 'react';
-import NavContext from '../context/NavContext';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import '../styles/Inicio.css';

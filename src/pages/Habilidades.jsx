@@ -1,6 +1,5 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import abilities from '../images/abilities.svg';
 import jest from '../images/jest.svg';
 import css from '../images/css.svg';
 import linux from '../images/linux.svg';

@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Prompt:wght@200&display=swap');
 
 nav {
+  background-color: black;
+  position: fixed;
+  top: 0;
   align-items: center;
   border-bottom: 1px rgb(75, 75, 75) solid;
   display: flex;

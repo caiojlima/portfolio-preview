@@ -17,6 +17,6 @@
 .abilities:hover {
   transform: scale(1.05);
   cursor: pointer;
-  background-color: rgb(117, 117, 117);
-  border-radius: 7px;
+  background-color: rgba(124, 124, 124, 0.397);
+  border-radius: 10px;
 }

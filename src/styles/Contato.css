@@ -31,7 +31,7 @@ h1 {
 }
 
 .links-container div:hover {
-  background-color: rgb(117, 117, 117);
+  background-color: rgba(124, 124, 124, 0.397);
 }
 
 .links-container div a {

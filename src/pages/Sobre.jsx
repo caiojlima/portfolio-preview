@@ -1,13 +1,42 @@
 import React from 'react';
 import Nav from '../components/Nav';
+import foto1 from '../images/foto_inicio.svg';
+import foto2 from '../images/foto_meio.svg';
 import '../styles/Sobre.css';
 
 const Sobre = () => (
   <div>
     <Nav />
-    <div className="title-container">
-      <h1>Página em construção<span className="blink-1">.</span><span className="blink-2">.</span><span className="blink-3">.</span></h1>
-    </div>
+    <section className="about-section">
+      <div className="title-container margin-adjustment">
+      <h1>Sobre</h1>
+      </div>
+      <div className="content-section-container">
+        <div className="initial-content">
+          <div className="about-img-container">
+            <img src={ foto1 } alt="Foto de Caio" />
+          </div>
+          <div className="description-container-about">
+            <p>Meu nome é Caio Lima. Nascido e criado em Salvador-BA. Atualmente com 23 anos e estudando desenvolvimento web na Trybe.</p>
+          </div>
+        </div>
+        <div className="bottom-description-container">
+          <p>Desde criança sempre gostei de tecnologia. Desmontava meus brinquedos elétricos pra saber como funcionava. Mas minha paixão sempre foram os jogos de computador.</p>
+        </div>
+      </div>
+    </section>
+    <section className="about-section bg2">
+      <div className="main-content-section-2">
+        <div className="description-container-2">
+          <p>Aos 13 anos entrei comecei a praticar judô. Lá eu consegui aprender sobre constância e disciplina. Minha terça e quinta à noite eram sagradas.</p>
+          <p>Logo fui tomando gosto naquilo. Entrei em diversos campeonatos. Descobrir o real significado de saber perder e de comemorar as vitórias.</p>
+        </div>
+        <div className="description-img-container">
+          <img src={ foto2 } alt="Foto Caio Judoca" />
+        </div>
+      </div>
+    </section>
+    <section className="about-section"></section>
   </div>
 );
 

@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Nav from '../components/Nav';
+import Popout from '../components/Popout';
 import jest from '../images/jest.svg';
 import css from '../images/css.svg';
 import linux from '../images/linux.svg';
@@ -15,27 +16,41 @@ import redux from '../images/redux.svg';
 
 import '../styles/Habilidades.css'
 
-const Habilidades = () => (
-  <div>
-    <Nav />
-    <div className="title-container margin-adjustment">
-      <h1>Habilidades</h1>
+const Habilidades = () => {
+  const [ state, setState ] = useState({ ability: '', popout: false });
+
+  const handleClick = ({ target: { name } }) => {
+    console.log(name)
+    setState({ ability: name,  popout: true});
+  }
+
+  const closePopout = () => {
+    setState({ ability: '', popout: false });
+  }
+
+  return (
+    <div>
+      <Nav />
+      {state.popout && <Popout name={ state.ability } callback={ closePopout } />}
+      <div className="title-container margin-adjustment">
+        <h1>Habilidades</h1>
+      </div>
+      <section className="abilities-container">
+        <img name="Jest" className="abilities" src={ jest } alt="Habilidades" onClick={ handleClick } />
+        <img name="RTL" className="abilities" src={ rtl } alt="Habilidades" onClick={ handleClick } />
+        <img name="Git" className="abilities" src={ git } alt="Habilidades" onClick={ handleClick } />
+        <img name="CSS" className="abilities" src={ css } alt="Habilidades" onClick={ handleClick } />
+        <img name="Figma" className="abilities" src={ figma } alt="Habilidades" onClick={ handleClick } />
+        <img name="GitHub" className="abilities" src={ githubt } alt="Habilidades" onClick={ handleClick } />
+        <img name="Linux" className="abilities" src={ linux } alt="Habilidades" onClick={ handleClick } />
+        <img name="HTML" className="abilities" src={ html } alt="Habilidades" onClick={ handleClick } />
+        <img name="VSCode" className="abilities" src={ vscode } alt="Habilidades" onClick={ handleClick } />
+        <img name="Javascript" className="abilities" src={ javascript } alt="Habilidades" onClick={ handleClick } />
+        <img name="React" className="abilities" src={ react } alt="Habilidades" onClick={ handleClick } />
+        <img name="Redux" className="abilities" src={ redux } alt="Habilidades" onClick={ handleClick } />
+      </section>
     </div>
-    <section className="abilities-container">
-      <img className="abilities" src={ jest } alt="Habilidades" />
-      <img className="abilities" src={ rtl } alt="Habilidades" />
-      <img className="abilities" src={ git } alt="Habilidades" />
-      <img className="abilities" src={ css } alt="Habilidades" />
-      <img className="abilities" src={ figma } alt="Habilidades" />
-      <img className="abilities" src={ githubt } alt="Habilidades" />
-      <img className="abilities" src={ linux } alt="Habilidades" />
-      <img className="abilities" src={ html } alt="Habilidades" />
-      <img className="abilities" src={ vscode } alt="Habilidades" />
-      <img className="abilities" src={ javascript } alt="Habilidades" />
-      <img className="abilities" src={ react } alt="Habilidades" />
-      <img className="abilities" src={ redux } alt="Habilidades" />
-    </section>
-  </div>
-);
+  )
+};
 
 export default Habilidades;

@@ -1,0 +1,39 @@
+.popout-container {
+  position: absolute;
+  width: 100%;
+  height: 84vh;
+  background-color: rgba(0, 0, 0, 0.921);
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popout {
+  position: relative;
+  width: 65%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.popout h2 {
+  font-size: 50px;
+}
+
+.popout-p-container {
+  width: 50%;
+  height: 10rem;
+  font-size: 24px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.popout span {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}

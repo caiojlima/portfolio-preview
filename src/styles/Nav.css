@@ -3,6 +3,7 @@
 nav {
   background-color: black;
   position: fixed;
+  z-index: 99999;
   top: 0;
   align-items: center;
   border-bottom: 1px rgb(75, 75, 75) solid;

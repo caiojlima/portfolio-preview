@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../components/Nav';
 import foto1 from '../images/foto_inicio.svg';
 import foto2 from '../images/foto_meio.svg';
+import foto3 from '../images/foto_final.svg'
 import '../styles/Sobre.css';
 
 const Sobre = () => (
@@ -36,7 +37,17 @@ const Sobre = () => (
         </div>
       </div>
     </section>
-    <section className="about-section"></section>
+    <section className="about-section">
+      <div className="main-content-section-3">
+        <div className="description-img-container-3">
+          <img src={ foto3 } alt="Foto Caio Trybe" />
+        </div>
+        <div className="description-container-3">
+          <p>Atualmente estou cursando desevolvimento web na Trybe! Durante o curso, aprendi mais sobre trabalhos em grupo, sobre novas tecnologias, sobre aprender a aprender. </p>
+          <p>Nesse periodo de estudos fui desafiado várias vezes. Superei dificuldades que não achava que eu seria capaz. Com o passar do tempo descobri que basta apenas seguir o que já tinha aprendido no judô! Ter foco, disciplina e consistência.</p>
+        </div>
+      </div>
+    </section>
   </div>
 );
 

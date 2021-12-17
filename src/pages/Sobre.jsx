@@ -22,15 +22,15 @@ const Sobre = () => (
           </div>
         </div>
         <div className="bottom-description-container">
-          <p>Desde criança sempre gostei de tecnologia. Desmontava meus brinquedos elétricos pra saber como funcionava. Mas minha paixão sempre foram os jogos de computador.</p>
+          <p>Desde criança sempre gostei de tecnologia. Desmontava meus brinquedos elétricos para saber como funcionava. Mas minha paixão sempre foram os jogos de computador.</p>
         </div>
       </div>
     </section>
     <section className="about-section bg2">
       <div className="main-content-section-2">
         <div className="description-container-2">
-          <p>Aos 13 anos entrei comecei a praticar judô. Lá eu consegui aprender sobre constância e disciplina. Minha terça e quinta à noite eram sagradas.</p>
-          <p>Logo fui tomando gosto naquilo. Entrei em diversos campeonatos. Descobrir o real significado de saber perder e de comemorar as vitórias.</p>
+          <p>Aos 13 anos comecei a praticar judô. Lá eu consegui aprender sobre constância e disciplina. Minhas terças e quintas eram sagradas.</p>
+          <p>Logo fui tomando gosto naquilo. Entrei em diversos campeonatos. Descobri o real significado de saber perder e de comemorar as vitórias.</p>
         </div>
         <div className="description-img-container">
           <img src={ foto2 } alt="Foto Caio Judoca" />
@@ -43,8 +43,8 @@ const Sobre = () => (
           <img src={ foto3 } alt="Foto Caio Trybe" />
         </div>
         <div className="description-container-3">
-          <p>Atualmente estou cursando desevolvimento web na Trybe! Durante o curso, aprendi mais sobre trabalhos em grupo, sobre novas tecnologias, sobre aprender a aprender. </p>
-          <p>Nesse periodo de estudos fui desafiado várias vezes. Superei dificuldades que não achava que eu seria capaz. Com o passar do tempo descobri que basta apenas seguir o que já tinha aprendido no judô! Ter foco, disciplina e consistência.</p>
+          <p>Atualmente estou cursando desenvolvimento web na Trybe! Durante o curso, aprendi mais sobre trabalhos em grupo, sobre novas tecnologias, sobre aprender a aprender. </p>
+          <p>Nesse período de estudos fui desafiado várias vezes. Superei dificuldades que não achava que eu seria capaz. Com o passar do tempo descobri que basta apenas seguir o que já tinha aprendido no judô! Ter foco, disciplina e consistência.</p>
         </div>
       </div>
     </section>

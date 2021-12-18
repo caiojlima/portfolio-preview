@@ -30,8 +30,8 @@ const Habilidades = () => {
 
   return (
     <div>
-      <Nav />
       {state.popout && <Popout name={ state.ability } callback={ closePopout } />}
+      <Nav />
       <div className="title-container margin-adjustment">
         <h1>Habilidades</h1>
       </div>

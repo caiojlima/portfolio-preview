@@ -13,27 +13,27 @@ const Projetos = () => (
       <h1>Projetos</h1>
     </div>
     <div className="cards-container">
-      <a href="https://online-store-caiojlima.vercel.app/" target="_blank" rel="noreferrer">
-        <ProjectCard
-        name="Front-End Online store"
-        img={ aplication }
-        description="Projeto desenvolvido durante o curso da Trybe. Nele eu consegui me aprofundar no React, no RTL e também nas requisições de API."
-        />
-      </a>
-      <a href="https://triviatrybe.herokuapp.com/" target="_blank" rel="noreferrer">
-        <ProjectCard
-        name="Trivia Trybe"
-        img={ trivia }
-        description="Projeto em grupo da Trybe onde pude evoluir minhas soft skills enquanto aprendia a utilizar o Redux e o Redux Thunk."
-        />
-      </a>
-      <a href="https://caiojlima.github.io/crypto_curr/" target="_blank" rel="noreferrer">
-        <ProjectCard
-        name="Crypto Curr"
-        img={ crypto }
-        description="Projeto em grupo do final do módulo de fundamentos do desenvolvimento web. Foram utilizadas duas API's, duas bibliotecas e bastante HTML, CSS e Javascript!"
-        />
-      </a>
+      <ProjectCard
+      name="Front-End Online Store"
+      img={ aplication }
+      description="Projeto desenvolvido durante o curso da Trybe. Nele eu consegui me aprofundar no React, no RTL e também nas requisições de API."
+      url="https://online-store-caiojlima.vercel.app/"
+      git="https://github.com/caiojlima/online-store"
+      />
+      <ProjectCard
+      name="Trivia Trybe"
+      img={ trivia }
+      description="Projeto em grupo da Trybe onde pude evoluir minhas soft skills enquanto aprendia a utilizar o Redux e o Redux Thunk."
+      url="https://triviatrybe.herokuapp.com/"
+      git="https://github.com/caiojlima/trivia"
+      />
+      <ProjectCard
+      name="Crypto Curr"
+      img={ crypto }
+      description="Projeto em grupo do final do módulo de fundamentos do desenvolvimento web. Foram utilizadas duas API's, duas bibliotecas e bastante HTML, CSS e Javascript!"
+      url="https://caiojlima.github.io/crypto_curr/"
+      git="https://github.com/caiojlima/crypto_curr"
+      />
     </div>
   </div>
 );

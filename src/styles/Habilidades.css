@@ -1,10 +1,11 @@
 .abilities-container {
   margin: auto;
+  margin-top: 35px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  width: 950px;
+  width: 55rem;
 }
 
 .abilities {

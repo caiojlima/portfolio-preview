@@ -93,3 +93,9 @@ textarea::placeholder, input::placeholder {
   background-color: rgb(119, 119, 119);
   cursor: pointer;
 }
+
+@media only screen and (max-width: 768px) {
+  .title-container {
+    margin-top: 5rem;
+  } 
+}

@@ -22,6 +22,9 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
+  background-image: url(../images/slider.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   -webkit-transition: .4s;
   transition: .4s;
 }

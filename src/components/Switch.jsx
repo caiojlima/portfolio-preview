@@ -29,7 +29,7 @@ const Switch = () => {
       }
       setState({ theme: 'dark' });
     }
-  },[checked])
+  },[checked, setState])
 
   return(
   <label className="switch">

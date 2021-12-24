@@ -31,9 +31,9 @@ const Switch = () => {
   },[checked])
 
   return(
-  <label class="switch">
-    <input onClick={ toggleSwitch } type="checkbox" checked={ checked } />
-    <span class="slider round"></span>
+  <label className="switch">
+    <input onChange={ toggleSwitch } type="checkbox" checked={ checked } />
+    <span className="slider round"></span>
   </label>
   );
 };

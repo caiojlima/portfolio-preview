@@ -36,17 +36,21 @@
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: rgb(7, 7, 7);
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #242424;
+}
+
+input:checked + .slider::before {
+  background-color: #ffffff;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  border: 1px solid #ffffff;
 }
 
 input:checked + .slider:before {
@@ -62,4 +66,10 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .switch {
+    margin-top: 80px;
+  }
 }

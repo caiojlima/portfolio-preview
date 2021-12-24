@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import GeralContext from './GeralContext';
 
 const Provider = ({ children }) => {
-  const [ state, setState ] = useState();
+  const [ state, setState ] = useState({ theme: 'dark' });
 
   const CONTEXT = {
     ...state,

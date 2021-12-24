@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  margin-top: 6.6rem;
   margin-bottom: 2%;
   width: 100%;  
 }
@@ -28,6 +27,7 @@ h1 {
   margin: 0 7%;
   transition: 0.5s ease;
   width: 15%;
+  background-color: black;
 }
 
 .links-container div:hover {
@@ -97,7 +97,7 @@ textarea::placeholder, input::placeholder {
 
 @media only screen and (max-width: 768px) {
   .title-container {
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   .links-container {
@@ -111,6 +111,11 @@ textarea::placeholder, input::placeholder {
 
   .links-container div a img {
     width: 300%;
+  }
+
+  .links-container div {
+    width: 200px;
+    height: 70px;
   }
 
   .email-section {

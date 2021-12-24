@@ -9,6 +9,8 @@
 
 .not-found-container img {
   width: 35%;
+  background-color: black;
+  border-radius: 20px;
 }
 
 .error-message-container {
@@ -18,11 +20,11 @@
 @media only screen and (max-width: 768px) {
   .not-found-container {
     flex-direction: column;
-    height: 80vh;
   }
 
   .not-found-container img {
     width: 70%;
+    margin-bottom: 20px;
   }
 
   .error-message-container {

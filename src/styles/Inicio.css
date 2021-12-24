@@ -53,6 +53,18 @@
     margin-top: 40%;
   }
 
+  .name-container {
+    width: 100%;
+  }
+
+  .paragraph-container {
+    width: 100%;
+  }
+
+  .dev-container {
+    width: 100%;
+  }
+
   .name-container h1 {
     font-size: 40px;
   }

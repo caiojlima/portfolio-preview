@@ -1,12 +1,14 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import Switch from './Switch';
 import '../styles/Nav.css';
 
 const Nav = () => {
   const { pathname } = useLocation();
 
   return (
-    <nav>
+    <div className="nav-container">
+      <nav>
       <ul>
         <Link to="/">
           <li>
@@ -40,6 +42,8 @@ const Nav = () => {
         </Link>
       </ul>
     </nav>
+    <Switch />
+    </div>
   );
 };
 

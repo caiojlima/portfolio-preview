@@ -16,7 +16,7 @@ const Switch = () => {
     const sectionAbout = document.getElementsByClassName('bg2')[0];
     if (!checked) {
       body.style.backgroundColor = 'white';
-      body.style.color = 'black'
+      body.style.color = 'black';
       if(sectionAbout) {
         sectionAbout.style.backgroundColor = '#e9e9e9'
       }

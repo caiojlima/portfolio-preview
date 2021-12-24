@@ -1,7 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import Nav from '../components/Nav';
+import GeralContext from '../context/GeralContext';
 import github from '../images/github.svg';
+import githubL from '../images/githubL.svg';
 import linkedin from '../images/linkedin.svg';
+import linkedinL from '../images/linkedinL.svg';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2/dist/sweetalert2.js';
 import '../styles/Contato.css';
@@ -15,6 +18,8 @@ const Contato = () => {
   };
 
   const { name, message, email } = state;
+
+  const { theme } = useContext(GeralContext);
 
   const sendEmail = (event) => {
     event.preventDefault();
@@ -66,12 +71,12 @@ const Contato = () => {
       <section className="links-container">
         <div>
           <a href="https://github.com/caiojlima" target="_blank" rel="noreferrer">
-            <img src={ github } alt="Link para Github" />
+            <img src={ theme === 'light' ? githubL : github } alt="Link para Github" />
           </a>
         </div>
         <div>
           <a href="https://www.linkedin.com/in/caio-limah/" target="_blank" rel="noreferrer">
-            <img src={ linkedin } alt="Link para Linkedin" />
+            <img src={ theme === 'light' ? linkedinL : linkedin } alt="Link para Linkedin" />
           </a>
         </div>
       </section>

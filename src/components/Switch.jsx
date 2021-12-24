@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import GeralContext from "../context/GeralContext";
 import '../styles/Switch.css';
 
 const Switch = () => {
   const INITIAL_STATE = (localStorage.getItem('theme') === 'light') ? false : true;
   const [checked, setChecked] = useState(INITIAL_STATE);
+  const { setState } = useContext(GeralContext);
 
   const toggleSwitch = () => {
     setChecked((checked)? false : true);
-
   }
 
   useEffect(() => {
@@ -19,7 +20,8 @@ const Switch = () => {
       if(sectionAbout) {
         sectionAbout.style.backgroundColor = '#e9e9e9'
       }
-      localStorage.setItem('theme', 'light')
+      localStorage.setItem('theme', 'light');
+      setState({ theme: 'light' });
     } else {
       body.style.backgroundColor = 'black';
       body.style.color = 'white';
@@ -27,6 +29,7 @@ const Switch = () => {
         sectionAbout.style.backgroundColor = '#0c0c0c'
       }
       localStorage.setItem('theme', 'dark');
+      setState({ theme: 'dark' });
     }
   },[checked])
 

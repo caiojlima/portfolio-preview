@@ -58,6 +58,7 @@ form {
   flex-direction: column;
   width: 30%;
   align-items: center;
+  margin-top: 20px;
 }
 label {
   display: flex;
@@ -97,5 +98,28 @@ textarea::placeholder, input::placeholder {
 @media only screen and (max-width: 768px) {
   .title-container {
     margin-top: 5rem;
-  } 
+  }
+
+  .links-container {
+    justify-content: space-evenly;
+  }
+  
+  form {
+    width: 70%;
+    margin-top: 25px;
+  }
+
+  .links-container div a img {
+    width: 300%;
+  }
+
+  .email-section {
+    margin-top: 35px;
+  }
+
+
+  .sub-btn {
+    width: 30%;
+    margin-top: 15px;
+  }
 }

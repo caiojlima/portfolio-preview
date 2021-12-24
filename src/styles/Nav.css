@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Prompt:wght@200&display=swap');
 
+.nav-container {
+  display: flex;
+  flex-direction: column;
+}
+
 nav {
   background-color: black;
   position: fixed;

@@ -20,7 +20,6 @@ const Habilidades = () => {
   const [ state, setState ] = useState({ ability: '', popout: false });
 
   const handleClick = ({ target: { name } }) => {
-    console.log(name)
     setState({ ability: name,  popout: true});
   }
 

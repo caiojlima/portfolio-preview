@@ -18,7 +18,7 @@ const Switch = () => {
       body.style.backgroundColor = 'white';
       body.style.color = 'black';
       if(sectionAbout) {
-        sectionAbout.style.backgroundColor = '#e9e9e9'
+        sectionAbout.style.backgroundColor = '#f9f9f9';
       }
       setState({ theme: 'light' });
     } else {

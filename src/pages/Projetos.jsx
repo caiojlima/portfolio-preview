@@ -14,18 +14,18 @@ const Projetos = () => (
     </div>
     <div className="cards-container">
       <ProjectCard
-      name="Front-End Online Store"
-      img={ aplication }
-      description="Projeto desenvolvido durante o curso da Trybe. Nele eu consegui me aprofundar no React, no RTL e também nas requisições de API."
-      url="https://online-store-caiojlima.vercel.app/"
-      git="https://github.com/caiojlima/online-store"
-      />
-      <ProjectCard
       name="Trivia Trybe"
       img={ trivia }
       description="Projeto em grupo da Trybe onde pude evoluir minhas soft skills enquanto aprendia a utilizar o Redux e o Redux Thunk."
       url="https://triviatrybe.herokuapp.com/"
       git="https://github.com/caiojlima/trivia"
+      />
+      <ProjectCard
+      name="Front-End Online Store"
+      img={ aplication }
+      description="Projeto desenvolvido durante o curso da Trybe. Nele eu consegui me aprofundar no React, no RTL e também nas requisições de API."
+      url="https://online-store-caiojlima.vercel.app/"
+      git="https://github.com/caiojlima/online-store"
       />
       <ProjectCard
       name="Crypto Curr"

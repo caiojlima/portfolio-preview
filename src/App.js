@@ -12,12 +12,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="*" element={ <NotFound /> } />
         <Route path="/" element={ <Inicio /> } />
         <Route path="/about" element={ <Sobre /> } />
         <Route path="/abilities" element={ <Habilidades /> } />
         <Route path="/projects" element={ <Projetos /> } />
         <Route path="/contact" element={ <Contato /> } />
-        <Route path="*" element={ <NotFound /> } />
       </Routes>
     </BrowserRouter>
   );

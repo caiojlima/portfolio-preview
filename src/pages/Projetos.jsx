@@ -3,6 +3,7 @@ import Nav from '../components/Nav';
 import aplication from '../images/aplication.gif';
 import trivia from '../images/trivia.gif';
 import crypto from '../images/crypto_curr.gif';
+import recipes from '../images/recipesApp.gif';
 import ProjectCard from '../components/ProjectCard';
 import '../styles/Projetos.css';
 
@@ -13,6 +14,13 @@ const Projetos = () => (
       <h1>Projetos</h1>
     </div>
     <div className="cards-container">
+      <ProjectCard
+      name="Recipes App"
+      img={ recipes }
+      description="Último projeto de Front-End da Trybe. Trabalho em grupo onde pude compilar todo o aprendizado do módulo."
+      url="https://recipes-app-caiojlima.vercel.app/"
+      git="https://github.com/caiojlima/recipes-app"
+      />
       <ProjectCard
       name="Trivia Trybe"
       img={ trivia }
